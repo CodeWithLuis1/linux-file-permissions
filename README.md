@@ -26,21 +26,7 @@ I used the `ls` command with two options combined:
 
 **Output:**
 
-<!-- Pega aquí tu captura del lab. Si no usas captura, borra esta línea y deja solo el bloque de código de abajo. -->
 ![Output of the ls -la command in the projects directory](images/ls-la.png)
-
-```
-# Reemplaza este bloque con la salida real de tu lab (cópiala tal cual de la terminal)
-total 32
-drwxr-xr-x 3 researcher2 research_team 4096 Jul 22 20:53 .
-drwxr-xr-x 3 researcher2 research_team 4096 Jul 22 20:52 ..
--rw--w---- 1 researcher2 research_team   46 Jul 22 20:53 .project_x.txt
-drwx--x--- 2 researcher2 research_team 4096 Jul 22 20:53 drafts
--rw-rw-rw- 1 researcher2 research_team   46 Jul 22 20:53 project_k.txt
--rw-r----- 1 researcher2 research_team   46 Jul 22 20:53 project_m.txt
--rw-rw-r-- 1 researcher2 research_team   46 Jul 22 20:53 project_r.txt
--rw-rw-r-- 1 researcher2 research_team   46 Jul 22 20:53 project_t.txt
-```
 
 The first line of the screenshot is the command I entered; everything below it is the output. The listing shows one subdirectory (`drafts`), one hidden file (`.project_x.txt`), and the remaining project files. Every file and directory in the `projects` directory is owned by the `researcher2` user and the `research_team` group. The 10-character string in the first column is the permissions set on each entry, and it is what I used to decide which changes were needed.
 
